@@ -26,7 +26,6 @@ def start_game():
 
         while correct_guess == False:
             try:
-                print("For debug purposes, the correct number is ", correct_number, ".", sep="")
                 current_guess = int(input("What is your guess? "))
             except ValueError:
                 print("That isn't valid as a guess.  Please try again.")
