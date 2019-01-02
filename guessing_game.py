@@ -60,7 +60,6 @@ def start_game():
         
         if answer == "y" or answer == "yes":
             answer = "blank"
-            total_rounds += 1
             total_guesses = 1
             correct_number = random.randint(1, 10)
             correct_guess = False
